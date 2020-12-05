@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665FFA263973241ACD55A2FA /* Pods_DashBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9BFBD62799FF6AEF571E04 /* Pods_DashBoard.framework */; };
+		7F97EB403FC4E6EBFFBC1686 /* Pods_DashBoard_DashBoardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569DC32A52B29DD798699DAC /* Pods_DashBoard_DashBoardUITests.framework */; };
+		ADCBA50B24A91B3F00B15D63 /* DashBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCBA50A24A91B3F00B15D63 /* DashBoardApp.swift */; };
+		ADCBA50D24A91B3F00B15D63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCBA50C24A91B3F00B15D63 /* ContentView.swift */; };
+		ADCBA50F24A91B4000B15D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCBA50E24A91B4000B15D63 /* Assets.xcassets */; };
+		ADCBA51224A91B4000B15D63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCBA51124A91B4000B15D63 /* Preview Assets.xcassets */; };
+		ADCBA51D24A91B4000B15D63 /* DashBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCBA51C24A91B4000B15D63 /* DashBoardTests.swift */; };
+		ADCBA52824A91B4100B15D63 /* DashBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCBA52724A91B4100B15D63 /* DashBoardUITests.swift */; };
+		ED831B09256D377600DB08EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED831B08256D377600DB08EF /* GoogleService-Info.plist */; };
+		F5FD050A3D7DE775ADB3E388 /* Pods_DashBoardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0326AAF4C5D408B0DB2ECE /* Pods_DashBoardTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADCBA51924A91B4000B15D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADCBA4FF24A91B3F00B15D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCBA50624A91B3F00B15D63;
+			remoteInfo = DashBoard;
+		};
+		ADCBA52424A91B4100B15D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADCBA4FF24A91B3F00B15D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCBA50624A91B3F00B15D63;
+			remoteInfo = DashBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3009B032CDADF4E7A845FB02 /* Pods-DashBoardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DashBoardTests.debug.xcconfig"; path = "Target Support Files/Pods-DashBoardTests/Pods-DashBoardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40BED44773736738082FF7D7 /* Pods-DashBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DashBoard.release.xcconfig"; path = "Target Support Files/Pods-DashBoard/Pods-DashBoard.release.xcconfig"; sourceTree = "<group>"; };
+		4A0326AAF4C5D408B0DB2ECE /* Pods_DashBoardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DashBoardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		569DC32A52B29DD798699DAC /* Pods_DashBoard_DashBoardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DashBoard_DashBoardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB2B8748A9088DD6132D455 /* Pods-DashBoardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DashBoardTests.release.xcconfig"; path = "Target Support Files/Pods-DashBoardTests/Pods-DashBoardTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4C3DEF9258D3554715964C8 /* Pods-DashBoard-DashBoardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DashBoard-DashBoardUITests.release.xcconfig"; path = "Target Support Files/Pods-DashBoard-DashBoardUITests/Pods-DashBoard-DashBoardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ADCBA50724A91B3F00B15D63 /* DashBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DashBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCBA50A24A91B3F00B15D63 /* DashBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardApp.swift; sourceTree = "<group>"; };
+		ADCBA50C24A91B3F00B15D63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADCBA50E24A91B4000B15D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADCBA51124A91B4000B15D63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADCBA51324A91B4000B15D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCBA51824A91B4000B15D63 /* DashBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCBA51C24A91B4000B15D63 /* DashBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardTests.swift; sourceTree = "<group>"; };
+		ADCBA51E24A91B4000B15D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCBA52324A91B4100B15D63 /* DashBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCBA52724A91B4100B15D63 /* DashBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardUITests.swift; sourceTree = "<group>"; };
+		ADCBA52924A91B4100B15D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B35D77B7AF9E8CF0AE666C67 /* Pods-DashBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DashBoard.debug.xcconfig"; path = "Target Support Files/Pods-DashBoard/Pods-DashBoard.debug.xcconfig"; sourceTree = "<group>"; };
+		DF9BFBD62799FF6AEF571E04 /* Pods_DashBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DashBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED831B08256D377600DB08EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F35F77FE19898F73727E6760 /* Pods-DashBoard-DashBoardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DashBoard-DashBoardUITests.debug.xcconfig"; path = "Target Support Files/Pods-DashBoard-DashBoardUITests/Pods-DashBoard-DashBoardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADCBA50424A91B3F00B15D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665FFA263973241ACD55A2FA /* Pods_DashBoard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCBA51524A91B4000B15D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FD050A3D7DE775ADB3E388 /* Pods_DashBoardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCBA52024A91B4100B15D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F97EB403FC4E6EBFFBC1686 /* Pods_DashBoard_DashBoardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		411CE8D0A99E89662ACE4529 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF9BFBD62799FF6AEF571E04 /* Pods_DashBoard.framework */,
+				569DC32A52B29DD798699DAC /* Pods_DashBoard_DashBoardUITests.framework */,
+				4A0326AAF4C5D408B0DB2ECE /* Pods_DashBoardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		991C50CDE9DBE64AD4607EA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B35D77B7AF9E8CF0AE666C67 /* Pods-DashBoard.debug.xcconfig */,
+				40BED44773736738082FF7D7 /* Pods-DashBoard.release.xcconfig */,
+				F35F77FE19898F73727E6760 /* Pods-DashBoard-DashBoardUITests.debug.xcconfig */,
+				A4C3DEF9258D3554715964C8 /* Pods-DashBoard-DashBoardUITests.release.xcconfig */,
+				3009B032CDADF4E7A845FB02 /* Pods-DashBoardTests.debug.xcconfig */,
+				9AB2B8748A9088DD6132D455 /* Pods-DashBoardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ADCBA4FE24A91B3F00B15D63 = {
+			isa = PBXGroup;
+			children = (
+				ADCBA50924A91B3F00B15D63 /* DashBoard */,
+				ADCBA51B24A91B4000B15D63 /* DashBoardTests */,
+				ADCBA52624A91B4100B15D63 /* DashBoardUITests */,
+				ADCBA50824A91B3F00B15D63 /* Products */,
+				991C50CDE9DBE64AD4607EA5 /* Pods */,
+				411CE8D0A99E89662ACE4529 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADCBA50824A91B3F00B15D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADCBA50724A91B3F00B15D63 /* DashBoard.app */,
+				ADCBA51824A91B4000B15D63 /* DashBoardTests.xctest */,
+				ADCBA52324A91B4100B15D63 /* DashBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADCBA50924A91B3F00B15D63 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				ED831B08256D377600DB08EF /* GoogleService-Info.plist */,
+				ADCBA50A24A91B3F00B15D63 /* DashBoardApp.swift */,
+				ADCBA50C24A91B3F00B15D63 /* ContentView.swift */,
+				ADCBA50E24A91B4000B15D63 /* Assets.xcassets */,
+				ADCBA51324A91B4000B15D63 /* Info.plist */,
+				ADCBA51024A91B4000B15D63 /* Preview Content */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		ADCBA51024A91B4000B15D63 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ADCBA51124A91B4000B15D63 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADCBA51B24A91B4000B15D63 /* DashBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADCBA51C24A91B4000B15D63 /* DashBoardTests.swift */,
+				ADCBA51E24A91B4000B15D63 /* Info.plist */,
+			);
+			path = DashBoardTests;
+			sourceTree = "<group>";
+		};
+		ADCBA52624A91B4100B15D63 /* DashBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADCBA52724A91B4100B15D63 /* DashBoardUITests.swift */,
+				ADCBA52924A91B4100B15D63 /* Info.plist */,
+			);
+			path = DashBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADCBA50624A91B3F00B15D63 /* DashBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCBA52C24A91B4100B15D63 /* Build configuration list for PBXNativeTarget "DashBoard" */;
+			buildPhases = (
+				2A1515CBF4F24D76F7C0DE06 /* [CP] Check Pods Manifest.lock */,
+				ADCBA50324A91B3F00B15D63 /* Sources */,
+				ADCBA50424A91B3F00B15D63 /* Frameworks */,
+				ADCBA50524A91B3F00B15D63 /* Resources */,
+				701B68D2699765580C442C9F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DashBoard;
+			productName = DashBoard;
+			productReference = ADCBA50724A91B3F00B15D63 /* DashBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADCBA51724A91B4000B15D63 /* DashBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCBA52F24A91B4100B15D63 /* Build configuration list for PBXNativeTarget "DashBoardTests" */;
+			buildPhases = (
+				75D5FE3B1CA6D5C63C28283E /* [CP] Check Pods Manifest.lock */,
+				ADCBA51424A91B4000B15D63 /* Sources */,
+				ADCBA51524A91B4000B15D63 /* Frameworks */,
+				ADCBA51624A91B4000B15D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADCBA51A24A91B4000B15D63 /* PBXTargetDependency */,
+			);
+			name = DashBoardTests;
+			productName = DashBoardTests;
+			productReference = ADCBA51824A91B4000B15D63 /* DashBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADCBA52224A91B4100B15D63 /* DashBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCBA53224A91B4100B15D63 /* Build configuration list for PBXNativeTarget "DashBoardUITests" */;
+			buildPhases = (
+				F508C163FE2886C3B0977846 /* [CP] Check Pods Manifest.lock */,
+				ADCBA51F24A91B4100B15D63 /* Sources */,
+				ADCBA52024A91B4100B15D63 /* Frameworks */,
+				ADCBA52124A91B4100B15D63 /* Resources */,
+				06349DDBD6E9FEF1373A5AEA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADCBA52524A91B4100B15D63 /* PBXTargetDependency */,
+			);
+			name = DashBoardUITests;
+			productName = DashBoardUITests;
+			productReference = ADCBA52324A91B4100B15D63 /* DashBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADCBA4FF24A91B3F00B15D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					ADCBA50624A91B3F00B15D63 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					ADCBA51724A91B4000B15D63 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = ADCBA50624A91B3F00B15D63;
+					};
+					ADCBA52224A91B4100B15D63 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = ADCBA50624A91B3F00B15D63;
+					};
+				};
+			};
+			buildConfigurationList = ADCBA50224A91B3F00B15D63 /* Build configuration list for PBXProject "DashBoard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADCBA4FE24A91B3F00B15D63;
+			productRefGroup = ADCBA50824A91B3F00B15D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADCBA50624A91B3F00B15D63 /* DashBoard */,
+				ADCBA51724A91B4000B15D63 /* DashBoardTests */,
+				ADCBA52224A91B4100B15D63 /* DashBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADCBA50524A91B3F00B15D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCBA51224A91B4000B15D63 /* Preview Assets.xcassets in Resources */,
+				ADCBA50F24A91B4000B15D63 /* Assets.xcassets in Resources */,
+				ED831B09256D377600DB08EF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCBA51624A91B4000B15D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCBA52124A91B4100B15D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06349DDBD6E9FEF1373A5AEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DashBoard-DashBoardUITests/Pods-DashBoard-DashBoardUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DashBoard-DashBoardUITests/Pods-DashBoard-DashBoardUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DashBoard-DashBoardUITests/Pods-DashBoard-DashBoardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A1515CBF4F24D76F7C0DE06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DashBoard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		701B68D2699765580C442C9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DashBoard/Pods-DashBoard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DashBoard/Pods-DashBoard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DashBoard/Pods-DashBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75D5FE3B1CA6D5C63C28283E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DashBoardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F508C163FE2886C3B0977846 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DashBoard-DashBoardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADCBA50324A91B3F00B15D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCBA50D24A91B3F00B15D63 /* ContentView.swift in Sources */,
+				ADCBA50B24A91B3F00B15D63 /* DashBoardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCBA51424A91B4000B15D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCBA51D24A91B4000B15D63 /* DashBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCBA51F24A91B4100B15D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCBA52824A91B4100B15D63 /* DashBoardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADCBA51A24A91B4000B15D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADCBA50624A91B3F00B15D63 /* DashBoard */;
+			targetProxy = ADCBA51924A91B4000B15D63 /* PBXContainerItemProxy */;
+		};
+		ADCBA52524A91B4100B15D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADCBA50624A91B3F00B15D63 /* DashBoard */;
+			targetProxy = ADCBA52424A91B4100B15D63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADCBA52A24A91B4100B15D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADCBA52B24A91B4100B15D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADCBA52D24A91B4100B15D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35D77B7AF9E8CF0AE666C67 /* Pods-DashBoard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DashBoard/Preview Content\"";
+				DEVELOPMENT_TEAM = 65LXL6G6NL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DashBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreyas.more;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADCBA52E24A91B4100B15D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40BED44773736738082FF7D7 /* Pods-DashBoard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DashBoard/Preview Content\"";
+				DEVELOPMENT_TEAM = 65LXL6G6NL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DashBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shreyas.more;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADCBA53024A91B4100B15D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3009B032CDADF4E7A845FB02 /* Pods-DashBoardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DashBoardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.DashBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DashBoard.app/DashBoard";
+			};
+			name = Debug;
+		};
+		ADCBA53124A91B4100B15D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB2B8748A9088DD6132D455 /* Pods-DashBoardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DashBoardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.DashBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DashBoard.app/DashBoard";
+			};
+			name = Release;
+		};
+		ADCBA53324A91B4100B15D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35F77FE19898F73727E6760 /* Pods-DashBoard-DashBoardUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DashBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.DashBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DashBoard;
+			};
+			name = Debug;
+		};
+		ADCBA53424A91B4100B15D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C3DEF9258D3554715964C8 /* Pods-DashBoard-DashBoardUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DashBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.DashBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DashBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADCBA50224A91B3F00B15D63 /* Build configuration list for PBXProject "DashBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCBA52A24A91B4100B15D63 /* Debug */,
+				ADCBA52B24A91B4100B15D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCBA52C24A91B4100B15D63 /* Build configuration list for PBXNativeTarget "DashBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCBA52D24A91B4100B15D63 /* Debug */,
+				ADCBA52E24A91B4100B15D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCBA52F24A91B4100B15D63 /* Build configuration list for PBXNativeTarget "DashBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCBA53024A91B4100B15D63 /* Debug */,
+				ADCBA53124A91B4100B15D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCBA53224A91B4100B15D63 /* Build configuration list for PBXNativeTarget "DashBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCBA53324A91B4100B15D63 /* Debug */,
+				ADCBA53424A91B4100B15D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADCBA4FF24A91B3F00B15D63 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_DashBoard {
+  umbrella header "Pods-DashBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}

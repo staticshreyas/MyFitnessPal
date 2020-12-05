@@ -1,0 +1,6 @@
+framework module Pods_DashBoardTests {
+  umbrella header "Pods-DashBoardTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
